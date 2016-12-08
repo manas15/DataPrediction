@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b20f6ab6-4677-486e-bc6e-0196b8ec8d19" name="Default" comment="" />
+    <list default="true" id="b20f6ab6-4677-486e-bc6e-0196b8ec8d19" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/winequality-white-k-nearest-neighbours.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/winequality-white-naive-bayes.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/CHANGES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/benchmarks/fast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/benchmarks/pyearth_vs_earth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/Profile.prof" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_classifier_comp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_derivatives.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_feature_importance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_linear_function.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_missing_data_problem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_multicolumn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_output_weight.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_sine_wave.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_sine_wave_2d.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/plot_v_function.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/examples/return_sympy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/test_basis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/test_constant.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/test_hinge.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/test_linear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/test_missingness.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/basis/test_smoothed_hinge.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/earth_linvars_regress.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/earth_regress.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/earth_regress_missing_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/earth_regress_smooth.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/forward_regress.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_44.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_50.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_50_weight.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/record/test_forward_pass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/record/test_pruning_pass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_earth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_export.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_forward.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_knot_search.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_pruning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_qr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/test_util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/testing_utils.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/py-earth/pyearth/test/record/__init__.py" afterPath="$PROJECT_DIR$/winequality-white-pyearth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/winequality-red-decision-tree.py" afterPath="$PROJECT_DIR$/winequality-red-decision-tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/winequality-red-pyearth.py" afterPath="$PROJECT_DIR$/winequality-red-pyearth.py" />
+    </list>
     <ignored path="Major-ML.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,31 +80,23 @@
       <file leaf-file-name="winequality-red-pyearth.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winequality-red-pyearth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random-test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/random-test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#15#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chai-point.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chai-point.csv">
+      <file leaf-file-name="winequality-white-pyearth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winequality-white-pyearth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding>
+                <element signature="e#15#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,10 +105,18 @@
         <entry file="file://$PROJECT_DIR$/winequality-red-naive-bayes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="e#15#33#0" expanded="true" />
-              </folding>
+              <caret line="22" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="winequality-white-naive-bayes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winequality-white-naive-bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +124,18 @@
       <file leaf-file-name="winequality-red-k-nearest-neighbours.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winequality-red-k-nearest-neighbours.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="winequality-white-k-nearest-neighbours.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/winequality-white-k-nearest-neighbours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -78,9 +144,11 @@
       <file leaf-file-name="winequality-red-decision-tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winequality-red-decision-tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="e#15#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,18 +156,28 @@
       <file leaf-file-name="winequality-red.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winequality-red.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__builtin__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.1/python_stubs/-1856293957/__builtin__.py">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py-earth/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py-earth/doc/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,14 +185,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/winequality-red-decision-tree.py" />
         <option value="$PROJECT_DIR$/winequality-red-k-nearest-neighbours.py" />
-        <option value="$PROJECT_DIR$/winequality-red-pyearth.py" />
         <option value="$PROJECT_DIR$/winequality-red-naive-bayes.py" />
         <option value="$PROJECT_DIR$/slice-localization-naive-bayes.py" />
+        <option value="$PROJECT_DIR$/winequality-red-pyearth.py" />
+        <option value="$PROJECT_DIR$/winequality-red-decision-tree.py" />
+        <option value="$PROJECT_DIR$/winequality-white-pyearth.py" />
+        <option value="$PROJECT_DIR$/winequality-white-naive-bayes.py" />
+        <option value="$PROJECT_DIR$/winequality-white-k-nearest-neighbours.py" />
       </list>
     </option>
   </component>
@@ -148,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,22 +257,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Major-ML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Major-ML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="py-earth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -354,11 +431,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -370,7 +448,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -391,25 +468,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/winequality-red-pyearth.py">
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_forward.pxd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="-832">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chai-point.csv">
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_forward.pyxdep">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -417,104 +484,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-naive-bayes.py">
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_knot_search.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-k-nearest-neighbours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-decision-tree.py">
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_knot_search.pxd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_knot_search.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_knot_search.pyxdep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_pruning.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_pruning.pxd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_pruning.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_pruning.pyxdep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_qr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_qr.pxd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_qr.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_qr.pyxdep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_record.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_record.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/_record.pxd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/test_basis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/test_constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/test_hinge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/test_linear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/test_missingness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/basis/test_smoothed_hinge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1687">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_44.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_44.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_50.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_50.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/issue_50_weight.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/pathological_data/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/test/record/test_forward_pass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/pyearth/earth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="994" column="7" selection-start-line="994" selection-start-column="7" selection-end-line="994" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/CHANGES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/appveyor.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/doc/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/benchmarks/fast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py-earth/benchmarks/pyearth_vs_earth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winequality-red.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.1/python_stubs/-1856293957/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2655">
-          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-pyearth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chai-point.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-naive-bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-k-nearest-neighbours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-k-nearest-neighbours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slice_localization_data.csv" />
-    <entry file="file://$PROJECT_DIR$/slice-localization-naive-bayes.py" />
-    <entry file="file://$PROJECT_DIR$/chai-point.csv">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -523,53 +826,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/winequality-red-decision-tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.1/python_stubs/-1856293957/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2655">
-          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-pyearth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winequality-red-naive-bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#15#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random-test.py">
+    <entry file="file://$PROJECT_DIR$/winequality-red-pyearth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#15#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winequality-white-pyearth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#15#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winequality-red-naive-bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winequality-white-naive-bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winequality-red-k-nearest-neighbours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winequality-white-k-nearest-neighbours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

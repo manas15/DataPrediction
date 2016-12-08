@@ -1,45 +1,55 @@
 # data loading
 import numpy as np
 import urllib
-
-
-dataset = np.loadtxt(open("winequality-red.csv","rb"),delimiter=";",skiprows=1)
+dataset = np.loadtxt(open("winequality-white.csv","rb"),delimiter=";",skiprows=1)
 # separate the data from the target attributes
-X = dataset[:, 0:11]
-y = dataset[:, 11]
+X = dataset[:,0:11]
+y = dataset[:,11]
 
-# data normalization 
+# data normalization
 from sklearn import preprocessing
 # normalize the data attributes
 normalized_X = preprocessing.normalize(X)
 # standardize the data attributes
 standardized_X = preprocessing.scale(X)
 
+
+#
 # feature selection
+#
+from sklearn import metrics
 from sklearn.ensemble import ExtraTreesClassifier
 model = ExtraTreesClassifier()
 model.fit(X, y)
+
 # display the relative importance of each attribute
 print(model.feature_importances_)
 
-# naive bayes implementation 
+# naive bayes implementation
 from matplotlib import pyplot
-# create model
-from pyearth import Earth
-model = Earth()
 
-# fit the earth model 
+# create model
+from sklearn import metrics
+from sklearn.neighbors import KNeighborsClassifier
+
+# fit a k-nearest neighbor model to the data
+model = KNeighborsClassifier()
 model.fit(X, y)
-print(" Model:")
+
+print("kNeighbors Model:")
 print(model)
 
 # make predictions
 expected = y
 predicted = model.predict(X)
 
-# since the quality can only be a number, round all the outputs off
-for i in range(len(predicted)):
-        predicted[i] = int(round(predicted[i]))
+# summarize the fit of the model
+print("classification_report::")
+print(metrics.classification_report(expected, predicted))
+
+print("confusion_matrix::")
+print(metrics.confusion_matrix(expected, predicted))
+
 
 # check how far the predictions are from actual values
 difference = list()
@@ -69,13 +79,15 @@ print "     Number of exact Matches           ", same
 print "     Number of times it didn't match   ", diff
 
 
-# plot the model 
+
+
+# plot the model
 pyplot.figure()
-pyplot.plot(X[:, 1], expected, 'r.')
-pyplot.plot(X[:, 1], predicted, 'b.')
+pyplot.plot(X[:,1], expected, 'r.')
+pyplot.plot(X[:,1], predicted, 'b.')
 pyplot.xlabel("x_1")
 pyplot.ylabel("y_1")
 pyplot.title("WineQuality-red pyearth data prediction")
-pyplot.show() 
+pyplot.show()
 
 

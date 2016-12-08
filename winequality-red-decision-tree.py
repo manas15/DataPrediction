@@ -16,7 +16,6 @@ normalized_X = preprocessing.normalize(X)
 standardized_X = preprocessing.scale(X)
 
 
-
 # feature selection 
 from sklearn import metrics
 from sklearn.ensemble import ExtraTreesClassifier
